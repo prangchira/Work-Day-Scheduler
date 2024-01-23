@@ -1,6 +1,6 @@
 $('#currentDay').text(dayjs().format("dddd, Do MMMM YYYY"));            //get the current date 
-var StartHour = 17;                                                     //set the first Hour (0-24) to display on Scheduler
-var EndHour= 24;                                                        //set the last Hour (0-24) to display on Scheduler
+var StartHour = 7;                                                     //set the first Hour (0-24) to display on Scheduler
+var EndHour= 22;                                                        //set the last Hour (0-24) to display on Scheduler
 var HourNow = dayjs().format('H');                                      //get the current time only in Hour
 
 
